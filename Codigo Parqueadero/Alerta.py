@@ -1,5 +1,4 @@
 class Alerta:
-  "Atributos"
   def InformeSeguridad(string):
     print("Alarma de vehiculo detectada") 
     
@@ -8,7 +7,6 @@ class Alerta:
     self.Parqueadero = Parqueadero
     self.LugarVehiculo = LugarVehiculo
 
-  "Metodos"
   def AlarmaCarro(self, InformeSeguridad, Vehiculo ):
     print(InformeSeguridad)
     print("Alarma encendida")
@@ -17,4 +15,4 @@ class Alerta:
     print("El parqueadero esta abasto")
 
   def ParqueaderoDisponible(self, Vehiculo):
-    print("El parqueadero esta disponible")ulo()
+    print("El parqueadero esta disponible")
