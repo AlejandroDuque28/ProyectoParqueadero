@@ -1,8 +1,12 @@
 class Mensualidades:
-    def TarifaDeMensualidades(int):
-        "Ingrese La Tarifa De Las Mensualidades: "
-    def DiaDeFacturacion(int):
-        "Ingrese El Dia De Facturacion: "
-    def __init__(self):
-        self.Vehiculo = Vehiculo()
-        self.Cliente = Cliente()
+    def TarifaMensualidades(int):
+        int(input("Digite el valor de la mensualidad"))
+
+    def DiaDeFacturacion(string):
+        input("Digite la fecha de facturacion")
+
+    def DefinirDiaDeFacturacion(self, DiaDeFacturacion):
+        print("la fecha de facturacion es:", DiaDeFacturacion)
+
+    def DefinirTarifaMensualidades(self, TarifaMensualidades):
+        print("La tarifa de las mensualidades es:", TarifaMensualidades)
