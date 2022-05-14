@@ -1,4 +1,11 @@
+import Vehiculo
 
 class Elementos:
 	def DescribirElementos(string):
-		"Describir y almacenar el elemento deseado"
+		print("Describir y almacenar el elemento deseado")
+  	
+  	def AlmacenarElemento():
+    	print("Elemento almacenado")
+
+  	def DatosVehiculo(Vehiculo):
+    	print("Datos Vehiculo")

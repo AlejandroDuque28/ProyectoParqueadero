@@ -1,9 +1,16 @@
+import Elementos
+import Parqueadero
 
 class LugarElemento:
-	def EspaciosParaAlmacenarElementos(int):
-		"Escoger espacio para el elemento"
+	def EspaciosParaAlmacenarElementos(string):
+		print("Escoger espacio para el elemento")
+
 	def DefinirElLugarDelElemento(string):
-		"Definir un lugar para el elemento"
+		print("Definir un lugar para el elemento")
+
 	def __init__(self):
-		self.Elementos = Elementos()
-		self.Parqueadero = Parqueadero()
+		self.Elementos = Elementos
+		self.Parqueadero = Parqueadero
+
+	def DestinarUnSitioDeElemento(self):
+		print("Mostrar sitio del elemento")

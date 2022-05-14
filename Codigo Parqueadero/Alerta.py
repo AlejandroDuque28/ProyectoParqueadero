@@ -1,20 +1,22 @@
+import Vehiculo
+import Parqueadero
+import LugarVehiculo
+
 class Alerta:
-  "Atributos"
   def InformeSeguridad(string):
     print("Alarma de vehiculo detectada") 
     
-  def __init__(self, Vehiculo, Parqueadero, LugarVehiculo):
+  def __init__(self):
     self.Vehiculo = Vehiculo
     self.Parqueadero = Parqueadero
     self.LugarVehiculo = LugarVehiculo
 
-  "Metodos"
-  def AlarmaCarro(self, InformeSeguridad, Vehiculo ):
+  def AlarmaCarro(self):
     print(InformeSeguridad)
     print("Alarma encendida")
     
-  def ParqueaderoAbasto(self, Parqueadero):
+  def ParqueaderoAbasto(self):
     print("El parqueadero esta abasto")
 
-  def ParqueaderoDisponible(self, Vehiculo):
-    print("El parqueadero esta disponible")ulo()
+  def ParqueaderoDisponible(self):
+    print("El parqueadero esta disponible")
