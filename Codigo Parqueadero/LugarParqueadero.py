@@ -10,8 +10,11 @@ import Vehiculo
 
 class LugarParqueo:
     "atributos"
-    def DefinirLugarVehiculo(self):
+    def DefinirLugarVehiculo(int):
         input("definir el lugar donde se va a alojar el vehiculo")
+    
+    def __init__(self):
+        self.Vehiculo = Vehiculo
         
     "medotos"
     
