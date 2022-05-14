@@ -15,18 +15,12 @@ class Parqueadero:
         input("Ingresar el numero de parqueaderos")
     def NumeroPisosDeParqueadero(int):
         input("ingresar el numero de pisos que posee el parqueadero ")
-    def Alerta(alerta):
-        input("ingresar alerta que posea")
     def NumeroDeEspaciosDeElementos(int):
         input( "ingresar el numero de lugares disponibles en los cuales posea espacio para guardar elementos secundarios del vehiculo ")
-    def LugarParqueadero(LugarParqueadero):
-        input("ingresar lugar parqueadero ")
 
     def __init__(self):
       self.Alerta = Alerta
-
-    def _init_(self):
-      self.LugarParqueadero = LugarParqueadero()
+      self.LugarParqueadero = LugarParqueadero
 
     "metodos"
     def RegistrarElTotalDeEspaciosDelParqueadero(self, numeroDeParqueaderos):
