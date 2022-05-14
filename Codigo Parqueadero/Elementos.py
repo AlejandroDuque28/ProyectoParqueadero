@@ -4,7 +4,7 @@ class Elementos:
 	def DescribirElementos(string):
 		print("Describir y almacenar el elemento deseado")
   	
-  	def AlmacenarElemento(bool):
+  	def AlmacenarElemento():
     	print("Elemento almacenado")
 
   	def DatosVehiculo(Vehiculo):
