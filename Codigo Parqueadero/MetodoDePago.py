@@ -1,7 +1,7 @@
 import ListaTransferenciasbancarias
 
 class MetodoDePago:
-	def Efectivo(bool):
+	def Efectivo():
 		"Paga por efectivo"
 
 	def DeterminarMetodoPag(self):
