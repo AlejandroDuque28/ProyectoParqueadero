@@ -9,9 +9,9 @@ Original file is located at
 
 class Tiempo:
    def TiempoDeEntrada(string):
-       int("insertar el tiempo de entrada del vehiculo")
+       input("insertar el tiempo de entrada del vehiculo")
    def TiempoDeSalida(string):
-       int("insetar el tiempo de salida")
+       input("insetar el tiempo de salida")
    
    "metodos"
    
