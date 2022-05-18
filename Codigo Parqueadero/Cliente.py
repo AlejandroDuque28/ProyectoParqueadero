@@ -1,9 +1,10 @@
 from Usuario import Usuario
 
 class Cliente(Usuario):
-    def __init__(self):
-        self.Usuario = Usuario
-    
+    #Atributos
+    def __init__(self, usuario:Usuario):
+        self.Usuario = usuario
+    #Metodos
     def Cedula(int):
         int(input("Digite su cedula"))
 
