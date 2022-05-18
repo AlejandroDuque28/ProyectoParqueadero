@@ -3,17 +3,16 @@ import Usuario
 import Parqueadero
 
 class Reservas:
-    def Email(string):
-        input("Ingrese Su Correo: ")
-    def FechaReserva(string):
-        input("Ingrese La Fecha De Reserva: ")
-    def HoraReserva(string):
-        input("Ingrese La Hora De Reserva: ")
-    def __init__(self):
-        self.Vehiculo = Vehiculo()
-        self.Usuario = Usuario()
-        self.Parqueadero = Parqueadero()
+    #Atributos
+    Email:str
+    Parqueadero: Parqueadero
 
+    def __init__(self, vehiculo:Vehiculo, usuario:Usuario, fechareserva:str, horareserva:str):
+        self.Vehiculo = vehiculo
+        self.Usuario = usuario
+        self.FechaReserva = fechareserva
+        self.HoraReserva = horareserva
+    #Metodos
     def DefinirReserva(self):
         print("Reserva Realizada")
 
