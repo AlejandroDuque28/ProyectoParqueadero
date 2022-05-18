@@ -1,10 +1,16 @@
+from multiprocessing.dummy.connection import Client
+import Cliente
+import Vehiculo
+
 class Mensualidades:
-    def TarifaMensualidades(int):
-        int(input("Digite el valor de la mensualidad"))
-
-    def DiaDeFacturacion(string):
-        input("Digite la fecha de facturacion")
-
+    #Atributos
+    TarifaDeMensualidades:int
+    Vehiculo : Vehiculo
+    
+    def __init__(self, diadefacturacion:int, cliente:Cliente ):
+        self.DiaDeFacturacion = diadefacturacion
+        self.Cliente = cliente
+    #Metodos
     def DefinirDiaDeFacturacion(self, DiaDeFacturacion):
         print("la fecha de facturacion es:", DiaDeFacturacion)
 
