@@ -1,14 +1,13 @@
-import string
-
-
 class Usuario:
-    def __init__(self, Nombre, Cedula, Telefono, Direccion, Contrasenia):
-        self.Nombre = string
-        self.Cedula = int
-        self.Telefono = int
-        self.Direccion = string
-        self.Contrasenia = string
+    #Atributos
+    Cedula: int
+    Telefono: int
+    Direccion: str
+    def __init__(self, nombre:str, contrasenia:str):
+        self.Nombre = nombre
+        self.Contrasenia = contrasenia
 
+    #Metodos
     def IniciarSesion(Nombre, Contrasenia):
         print("Iniciando Sesion")
 
