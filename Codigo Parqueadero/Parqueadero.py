@@ -22,7 +22,7 @@ class Parqueadero:
       self.Alerta = Alerta
       self.LugarParqueadero = LugarParqueadero
 
-    "metodos"
+         "metodos"
     def RegistrarElTotalDeEspaciosDelParqueadero(self, numeroDeParqueaderos):
         print("numero de parqueaderos que hay en el parqueadero")
     

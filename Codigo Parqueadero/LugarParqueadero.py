@@ -8,13 +8,12 @@ Original file is located at
 """
 import Vehiculo
 
-class LugarParqueo:
+class LugarParqueadero:
     "atributos"
-    def DefinirLugarVehiculo(int):
-        input("definir el lugar donde se va a alojar el vehiculo")
-    
-    def __init__(self):
+    def __init__(self, LugarParqueadero:int, Vehiculo : Vehiculo):
+        self.LugarParqueadero : LugarParqueadero
         self.Vehiculo = Vehiculo
+
         
     "medotos"
     
