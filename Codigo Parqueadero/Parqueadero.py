@@ -11,20 +11,15 @@ import Alerta
 
 class Parqueadero:
     "atributos"
-    def NumeroDeParqueaderos(int):
-        input("Ingresar el numero de parqueaderos")
-    def NumeroPisosDeParqueadero(int):
-        input("ingresar el numero de pisos que posee el parqueadero ")
-    def NumeroDeEspaciosDeElementos(int):
-        input( "ingresar el numero de lugares disponibles en los cuales posea espacio para guardar elementos secundarios del vehiculo ")
-
-    def __init__(self):
+    def __init__(self,Alerta:Alerta, LugarParqueadero:LugarParqueadero, numeroDeParqueaderos:int, numeroDePisosDeParqueadero:int):
       self.Alerta = Alerta
       self.LugarParqueadero = LugarParqueadero
+      self.numeroDeParqueaderos = numeroDeParqueaderos
+      self.numeroDePisosDeParqueadero = numeroDePisosDeParqueadero
 
-         "metodos"
+    "metodos"
     def RegistrarElTotalDeEspaciosDelParqueadero(self, numeroDeParqueaderos):
-        print("numero de parqueaderos que hay en el parqueadero")
+        print("numero de parqueaderos que hay en el parqueadero",numeroDeParqueaderos)
     
     def RegistrarNumeroDePisosDeParqueaderos(self, numeroDePisosDeParqueadero):
-        print("el numero de pisos de parqueos")
+        print("el numero de pisos de parqueos",numeroDePisosDeParqueadero)

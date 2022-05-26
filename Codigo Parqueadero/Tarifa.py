@@ -11,14 +11,18 @@ import Tiempo
 
 
 class Tarifa:
-    "atributos"
-    def ValorTarifaPorHora(int):
-        input("ingresar el valor de hora")
+    
+    Vehiculo : Vehiculo
+
+    def __init__(self,ValorTarifaPorHora : int, Tiempo:Tiempo):
+        self.ValorTarifaPorHora : ValorTarifaPorHora
+        self.Tiempo : Tiempo 
+    
     
     "metotos"
     
-    def __init__(self):
-        self.Vehiculo = Vehiculo()
-        self.Tiempo = Tiempo
-      
-
+    def RegistrarTarifa(ValorTarifaPorHora):
+        print("valor de la tarifa")
+        
+    def DevolverElValorAPagar(Tiempo):
+        print("devuelta")

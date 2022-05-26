@@ -9,14 +9,13 @@ Original file is located at
 import Vehiculo
 
 class TicketIngreso:
+  
     "atributos"
-    def HoraDeEntrada(string):
-        int("dijitar la hora de ingreso del vehiculo")
-    def _init_(self):
+    def _init_(self,Vehiculo : Vehiculo):
         self.Vehiculo = Vehiculo
 
     "metodos"
     def ImprimirTicketIngreso(self):
-        print("informacion de ticket")
+        print("informacion de ticket",TicketIngreso())
         
         

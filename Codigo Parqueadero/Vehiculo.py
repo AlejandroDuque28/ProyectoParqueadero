@@ -8,12 +8,10 @@ Original file is located at
 """
 import ListaTipoVehiculo
 class Vehiculo:
-    "atributos"
-    def Placa(string):
-        input("Digite la placa del vehiculo")
-        
-    def __init__(self):
-        self.ListaTipoVehiculo = ListaTipoVehiculo
+    
+    def __init__(self, Placa: str, TipoVehiculo : int(ListaTipoVehiculo)):
+        self.Placa : Placa
+        self.TipoVehiculo : ListaTipoVehiculo
         
     "metodos"
     
