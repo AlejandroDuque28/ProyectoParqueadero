@@ -1,9 +1,10 @@
 import Vehiculo
 
 class Elementos:
-	def DescribirElementos(string):
-		print("Describir y almacenar el elemento deseado")
-  	
+	#Atributos
+	DescribirElementos:str
+
+  	#Metodos
   	def AlmacenarElemento():
     	print("Elemento almacenado")
 

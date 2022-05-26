@@ -2,15 +2,14 @@ import Elementos
 import Parqueadero
 
 class LugarElemento:
-	def EspaciosParaAlmacenarElementos(string):
-		print("Escoger espacio para el elemento")
+	#Atributos 
+	Elementos : Elementos
+	Parqueadero : Parqueadero
+	DefinirElLugarDelElemento : str
 
-	def DefinirElLugarDelElemento(string):
-		print("Definir un lugar para el elemento")
+	def __init__(self, EspaciosParaAlmacenarElementos:int ):
+		self.EspaciosParaAlmacenarElementos:int
 
-	def __init__(self):
-		self.Elementos = Elementos
-		self.Parqueadero = Parqueadero
-
+	#Metodos
 	def DestinarUnSitioDeElemento(self):
 		print("Mostrar sitio del elemento")
