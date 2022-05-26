@@ -8,8 +8,16 @@ Original file is located at
 """
 
 class Tiempo:
-  def TiempoDeEntrada(string):
-    "insertar el tiempo de entrada del vehiculo"
-  def TiempoDeSalida(string):
-    "insetar el tiempo de salida"
-
+   
+   def __init__(self, TiempoDeEntrada: str, TiempoDeSalida: str):
+       self.TiempoDeEntrada : TiempoDeEntrada 
+       self.TiempoDeSalida : TiempoDeSalida 
+       
+  
+   #"metodos"
+   
+   def RegistrarTiempoDeEstadia(self,TiempoDeEntrada):
+       print("tiempo de entrada",TiempoDeEntrada)
+    
+   def RegistrarTiempoDeSalida(self,TiempoDeSalida):
+       print("tiempo de salida",TiempoDeSalida)

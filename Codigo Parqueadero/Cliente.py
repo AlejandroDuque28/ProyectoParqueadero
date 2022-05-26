@@ -1,6 +1,17 @@
-from typing_extensions import Self
 from Usuario import Usuario
 
 class Cliente(Usuario):
-    def Sesion(string):
-        "Inicie Sesion: "
+    #Atributos
+    def __init__(self, usuario:Usuario):
+        self.Usuario = usuario
+    #Metodos
+    def Cedula(int):
+        int(input("Digite su cedula"))
+
+    def Contrasenia(string):
+        input("Digite su contraseña")
+
+
+    def Registrar(self):
+        return super().Registrar(self.Cedula, self.Contrasenia)
+

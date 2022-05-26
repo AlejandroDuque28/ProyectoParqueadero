@@ -1,13 +1,20 @@
-from typing_extensions import Self
+import Vehiculo
+import Usuario
+import Parqueadero
 
 class Reservas:
-    def Email(string):
-        "Ingrese Su Correo: "
-    def FechaReserva(string):
-        "Ingrese La Fecha De Reserva: "
-    def HoraReserva(string):
-        "Ingrese La Hora De Reserva: "
-    def __init__(self):
-        self.Vehiculo = Vehiculo()
-        self.Usuario = Usuario()
-        self.Parqueadero = Parqueadero()
+    #Atributos
+    Email:str
+    Parqueadero: Parqueadero
+
+    def __init__(self, vehiculo:Vehiculo, usuario:Usuario, fechareserva:str, horareserva:str):
+        self.Vehiculo = vehiculo
+        self.Usuario = usuario
+        self.FechaReserva = fechareserva
+        self.HoraReserva = horareserva
+    #Metodos
+    def DefinirReserva(self):
+        print("Reserva Realizada")
+
+    def DestinarUnLugarDeParqueo(Parqueadero):
+        print("El lugar de su reserva es: ", Parqueadero)
