@@ -22,4 +22,4 @@ class Parqueadero:
         print("numero de parqueaderos que hay en el parqueadero",numeroDeParqueaderos)
     
     def RegistrarNumeroDePisosDeParqueaderos(self, numeroDePisosDeParqueadero):
-        print("el numero de pisos de parqueos",numeroDePisosDeParqueadero)
+        print("el numero de pisos de parqueadero",numeroDePisosDeParqueadero)

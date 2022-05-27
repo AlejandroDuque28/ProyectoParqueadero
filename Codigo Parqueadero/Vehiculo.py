@@ -16,7 +16,7 @@ class Vehiculo:
     "metodos"
     
     def RegistrarVehiculo(self):
-        print("vehiculo regitrado en el parqueadero")
+        print("Vehiculo regitrado en el parqueadero")
     
     
     

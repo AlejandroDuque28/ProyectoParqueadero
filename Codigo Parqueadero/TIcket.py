@@ -16,6 +16,6 @@ class TicketIngreso:
 
     "metodos"
     def ImprimirTicketIngreso(self):
-        print("informacion de ticket",TicketIngreso())
+        print("Informacion de ticket",TicketIngreso())
         
         

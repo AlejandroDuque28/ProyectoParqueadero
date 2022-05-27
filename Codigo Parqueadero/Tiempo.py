@@ -17,7 +17,7 @@ class Tiempo:
    #"metodos"
    
    def RegistrarTiempoDeEstadia(self,TiempoDeEntrada):
-       print("tiempo de entrada",TiempoDeEntrada)
+       print("Tiempo de entrada",TiempoDeEntrada)
     
    def RegistrarTiempoDeSalida(self,TiempoDeSalida):
-       print("tiempo de salida",TiempoDeSalida)
+       print("Tiempo de salida",TiempoDeSalida)

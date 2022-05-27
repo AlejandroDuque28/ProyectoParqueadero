@@ -25,4 +25,4 @@ class Tarifa:
         print("valor de la tarifa")
         
     def DevolverElValorAPagar(Tiempo):
-        print("devuelta")
+        print("dinero que ser regresa al cliente")

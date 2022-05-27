@@ -18,7 +18,7 @@ class LugarParqueadero:
     "medotos"
     
     def DestinarUnSitioDeParqueo(self):
-        print("destinar el lugar de parqueo")
+        print("destinar el lugar de parqueadero")
  
 
 
